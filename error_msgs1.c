@@ -173,5 +173,5 @@ char *error_2_syntax(char **args)
 	_strcat(error, "\" unexpected\n");
 
 	free(hist_str);
-	return (error);
+	return (error;
 }

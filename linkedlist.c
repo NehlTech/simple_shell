@@ -114,6 +114,6 @@ void free_list(list_t *head)
 		next = head->next;
 		free(head->dir);
 		free(head);
-		head = next;
+		head = nex;
 	}
 }
