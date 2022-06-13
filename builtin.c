@@ -194,5 +194,5 @@ int shellby_help(char **args, char __attribute__((__unused__)) **front)
 	else
 		write(STDERR_FILENO, name, _strlen(name));
 
-	return (0;
+	return (0);
 }
